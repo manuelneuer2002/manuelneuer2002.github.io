@@ -31,7 +31,7 @@
 	</head>
 	<body>
 		<div>
-			<h1>你是不是猪？？？</h1>
+			<h1>你是世界上最聪明的吗</h1>
 			<p id="p"></p>
 			<button id="yes">是</button>
 			<button id="no">不是</button>
@@ -43,14 +43,14 @@
 			var no=document.getElementById("no");
 			var p=document.getElementById("p");
 			yes.onclick=function(){
-				alert("哈哈哈！！！这才乖，你是猪");
+				alert("哈哈哈！！！我才是");
 			}
 			
-			var z=new Array("怎么？不承认？","承认了吧，没人笑你","快承认了吧","哼，那我消失了","不承认，真消失了","消失，看你承不承认，哼");
+			var z=new Array("怎么，还逞能","承认了吧，你才不是呢","快承认你不是！","哼，那我消失了","不承认你不是是吧，那我真消失了","消失，看你承不承认！");
 			var i=0
 			no.onclick=function(){
 				p.innerHTML +=z[i]+"<br>";
-				if(i>10000){
+				if(i>4){
 					this.style.display="none";
 				}else{
 					i++;
